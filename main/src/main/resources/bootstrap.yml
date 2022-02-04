@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: main
+  cloud:
+    config:      uri: http://localhost:8080
+      username: root
+      password: toor
+
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+      
+api:
+  character:
+    url:   https://rickandmortyapi.com/api/character/
+    #url:  http://localhost:8082/character/
+  location:
+    url:  https://rickandmortyapi.com/api/location/
+    #url:  http://localhost:8083/location/

@@ -1,12 +1,15 @@
 server:
-  port: 8079
+  port: 8080
   
 spring:
+  application:
+    name: config-service
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/CamiloSotoC/RickAndMortyChallenge_MS
+          default-label: develop
+          uri: https://github.com/CamiloSotoC/RickAndMortyChallenge_Microservicios.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
