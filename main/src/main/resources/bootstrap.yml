@@ -14,8 +14,8 @@ spring:
       
 api:
   character:
-    url:   https://rickandmortyapi.com/api/character/
-    #url:  http://localhost:8082/character/
+    #url:   https://rickandmortyapi.com/api/character/
+    url:  http://localhost:8080/character/
   location:
-    url:  https://rickandmortyapi.com/api/location/
-    #url:  http://localhost:8083/location/
+    #url:  https://rickandmortyapi.com/api/location/
+    url:  http://localhost:8080/location/

@@ -16,4 +16,12 @@ spring:
         - id: main
           uri: lb://main/
           predicates:
-            - Path=/rickandmortyapi/**     
+            - Path=/rickandmortyapi/**
+        - id: character
+          uri: lb://character
+          predicates:
+            - Path=/character/**
+        - id: location
+          uri: lb://location
+          predicates:
+            - Path=/location/**
