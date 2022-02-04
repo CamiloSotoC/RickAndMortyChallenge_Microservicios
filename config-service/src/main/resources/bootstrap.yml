@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8079
   
 spring:
   cloud:
@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/CamiloSotoC/RickAndMortyChallenge_MS
-          searchPath: config-data
+          searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
