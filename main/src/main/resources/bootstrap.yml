@@ -2,7 +2,7 @@ spring:
   application:
     name: main
   cloud:
-    config:      uri: http://localhost:8080
+    config:      uri: http://localhost:8081
       username: root
       password: toor
 
